@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">P2DB</string>
+    <string name="no_perms">Please allow all permissions as they\'re all required for the app to function!</string>
+    <string name="choose_car">Choose car:</string>
+    <string name="hack">Hack!</string>
+    <string name="select_device">Please wait for the car\'s Bluetooth to appear in the list</string>
+    <string name="educational"><b>WARNING!</b> This program is to be used for educational purposes <b>ONLY</b>! I will accept <b>NO RESPONSIBILITY</b> for <b>ANYTHING</b> you do! It is my advice for you to <b>NOT</b> use this program on any other vehicle <b>OTHER THAN YOUR OWN</b>, or one that you have permission to test on!</string>
+    <string name="explanation">So, how does this program work you may ask? Quite simple actually! After reverse engineering the Tesla Bluetooth Low Energy API, I realised that there was a simple mistake made by the developers, an option that they possibly didn\'t intend to release. That is, remote start. The problem is that over Bluetooth, it doesn\'t require your account password. This makes up for a simple attack; you simply add your phone key, and then remote start the car over Bluetooth (the owner <i>does</i> get a notification that the key was added though)</string>
+    <string name="wait">Please wait for the app to do its thing… if you\'ve been here for a minute or so, something\'s definitely gone wrong; try restarting the app or drop me an email! (I tried to fix it not connecting to the car, but <u>sometimes</u> it still just doesn\'t :/)</string>
+    <string name="error">Sorry, an error has occurred, please try again, or drop me an email!</string>
+    <string name="keycard">Please tap key card!</string>
+    <string name="thanks">Thanks!</string>
+    <string name="hacked">Pin To Drive bypassed! Press brake pedal to drive!</string>
+    <string name="turn_on_bluetooth">Please turn on Bluetooth, it is required for this app to function</string>
+    <string name="restart">Restart App</string>
+    <string name="restarting">Please wait a sec... Restarting...</string>
+</resources>
